@@ -19,7 +19,7 @@ public class MainPresenter extends MvpPresenter<MainView> {
         model.setAt(index, model.getAt(index) + 1);
         return model.getAt(index);
     }
-
+/**/
     public void onButtonOneClick() {
         getViewState().setButtonValue(0, calculateButtonValue(0));
     }
